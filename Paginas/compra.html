@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+<body class="bg-light">
+
+    <div class="container-fluid min-vh-100 d-grid" style="grid-template-columns: repeat(8, 1fr); grid-template-rows: repeat(6, 1fr); gap: 5px;">
+
+        <!-- NAV -->
+        <nav class="bg-white text-black d-flex align-items-center justify-content-between" style="grid-column: 1 / span 8; grid-row: 1 / span 1; padding: 0 15%;">
+  
+            <!-- DIV 1: Ícono y Marca -->
+            <div class="d-flex align-items-center">
+              <i class="bi bi-bank me-2"><img src="../Recursos/logo.svg" alt=""></i> <!-- Icono de banco -->
+              <span class="fw-bold"></span>
+            </div>
+          
+            <!-- DIV 2: Menú de Navegación -->
+            <div class="d-flex gap-3">
+              <a href="../index.html" class="text-secondary text-decoration-none">Home</a>
+              <a href="#" class="text-secondary text-decoration-none">About</a>
+              <a href="../Paginas/testimonios.html" class="text-secondary text-decoration-none">Testimonios</a>
+              <a href="#" class="text-secondary text-decoration-none">Blog</a>
+              <a href="#" class="text-secondary text-decoration-none">Compra</a>
+            </div>
+          
+            <!-- DIV 3: Botón de Acción -->
+            <div>
+                <a href="#" class="btn fw-normal" style="background-color: darkblue; color: white; border-radius: 25px;">Request Invite</a>
+            </div>
+          
+          </nav>
+
+        <!-- ASIDE -->
+        <aside class="bg-secondary text-white p-3" style="grid-column: 1 / span 2; grid-row: 2 / span 4;">
+            <h2 class="h5">Aside</h2>
+            <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Inicio</a></li>
+            <li><a href="#" class="text-white">Productos</a></li>
+            <li><a href="#" class="text-white">Contacto</a></li>
+            </ul>
+        </aside>
+
+        <!-- MAIN -->
+        <main class="bg-primary text-white p-3" style="grid-column: 3 / span 6; grid-row: 2 / span 4;">
+            <h2 class="h4 mb-4">Nuestros Planes Bancarios</h2>
+
+            <div class="row g-3">
+            
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Plan Básico</h5>
+                    <p class="card-text">Cuenta de ahorros sin comisiones mensuales. Ideal para principiantes.</p>
+                    <a href="#" class="btn btn-success">Ver más</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Plan Estándar</h5>
+                    <p class="card-text">Cuenta corriente con acceso a banca en línea y tarjeta de débito.</p>
+                    <a href="#" class="btn btn-success">Ver más</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Plan Premium</h5>
+                    <p class="card-text">Cuenta exclusiva con beneficios en viajes, seguros y asesoría financiera.</p>
+                    <a href="#" class="btn btn-success">Ver más</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Plan Empresarial</h5>
+                    <p class="card-text">Soluciones bancarias para pequeñas y medianas empresas.</p>
+                    <a href="#" class="btn btn-success">Ver más</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Plan Jóvenes</h5>
+                    <p class="card-text">Cuenta diseñada para jóvenes de 18 a 25 años con beneficios exclusivos.</p>
+                    <a href="#" class="btn btn-success">Ver más</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Plan Ahorro Futuro</h5>
+                    <p class="card-text">Planifica tu futuro con intereses preferenciales en tus ahorros.</p>
+                    <a href="#" class="btn btn-success">Ver más</a>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="bg-dark text-white text-center d-flex align-items-center justify-content-center" style="grid-column: 1 / span 8; grid-row: 6 / span 1;">
+            <p class="m-0">© 2025 Todos los derechos reservados.</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
